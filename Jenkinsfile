@@ -57,7 +57,7 @@ node {
     notify("Deploy to staging?")
 }
 //do not put in node, will pauze the node!
-input 'Deploy to staging?'
+input 'Do you want to deploy to staging?'
 
 // limit concurrency so we don't perform simultaneous deploys
 // and if multiple lines are executing,
